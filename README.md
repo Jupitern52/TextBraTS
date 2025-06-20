@@ -32,6 +32,26 @@ pip install git+https://github.com/Project-MONAI/MONAI.git@07de215c </pre>
 If you need to activate the environment, use:
 <pre>conda activate TextBraTS </pre>
 
+## Dataset
+
+Due to BraTS official guidelines, MRI images must be downloaded directly from the [BraTS 2020 challenge website](https://www.med.upenn.edu/cbica/brats2020/data.html) (training set).
+
+Our provided text reports, feature files, and prompt files are named to match the original BraTS folder IDs exactly. You can simply merge them with the downloaded MRI data.
+
+**Download our text, feature, and prompt files:**  
+[https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing](https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing)
+
+## Inference
+
+We provide our pre-trained weights for direct inference and evaluation.  
+Download the weights from the following link:
+
+[https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing](https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing)
+
+After downloading, place the weights in your desired directory, then run the following command for inference:
+
+```bash
+python test.py --pretrained_dir=/path/to/your/weights/ --exp_name=TextBraTS
   
 
 ## Citation
