@@ -10,10 +10,9 @@ A text-image public dataset with novel text-guided 3D brain tumor segmentation.
 
 ## Features
 
-- Multi-modal 3D brain MRI scans (T1, T1ce, T2, FLAIR)
-- Expert-annotated tumor segmentations
+- Multi-modal 3D brain MRI scans with expert-annotated segmentation (T1, T1ce, T2, FLAIR) from BraTS20 challenge training set
 - Structured radiology reports for each case
-- Text-image alignment for research on multi-modal fusion
+- Text-image alignment method for research on multi-modal fusion
 
 ## Usage
 
@@ -27,9 +26,10 @@ You can use this dataset for:
 If you use TextBraTS in your research, please cite:
 
 ```bibtex
-@article{your2024textbrats,
-  title={TextBraTS: A Text-Image Public Dataset with Novel Text-Guided 3D Brain Tumor Segmentation},
-  author={Your Name and Others},
-  journal={Preprint/Conference},
-  year={2024}
+@inproceedings{shi2025textbrats,
+  title = {TextBraTS: Text-Guided Volumetric Brain Tumor Segmentation with Innovative Dataset Development and Fusion Module Exploration},
+  author = {Shi, Xiaoyu and Jain, Rahul Kumar and Li, Yinhao and Hou, Ruibo and Cheng, Jingliang and Bai, Jie and Zhao, Guohua and Lin, Lanfen and Xu, Rui and Chen, Yen-wei},
+  booktitle = {Proceedings of the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  year = {2025},
+  note = {to appear}
 }
