@@ -56,8 +56,7 @@ After downloading, place the weights in your desired directory, then run the fol
 
 If you would like to train the model from scratch, please use the following command:
 
-```bash
-python main.py --distributed --use_ssl_pretrained --save_checkpoint --logdir=TextBraTS
+<pre>python main.py --distributed --use_ssl_pretrained --save_checkpoint --logdir=TextBraTS</pre>
 
 - The `--use_ssl_pretrained` option utilizes the pre-trained weights from NVIDIA's Swin UNETR model.
 - Download the Swin UNETR pre-trained weights from:  
