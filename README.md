@@ -51,7 +51,7 @@ Download the weights from the following link:
 After downloading, place the weights in your desired directory, then run the following command for inference:
 
 ```bash
-python test.py --pretrained_dir=/path/to/your/weights/ --exp_name=TextBraTS
+python test.py --pretrained_dir=/path/to/your/weights/ --exp_name=TextBraTS```
 
 ## Training
 
