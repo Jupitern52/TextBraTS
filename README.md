@@ -27,7 +27,7 @@ You can use this dataset for:
 
 ## Installing Dependencies
 Run the following commands to set up the environment:
-conda env create -f environment.yml
+<pre> ```bash conda env create -f 8b3e2889-f0ec-43d0-9cc4-b63a9a2d2ec5.yml pip install git+https://github.com/Project-MONAI/MONAI.git@07de215c ``` </pre>conda env create -f environment.yml
 pip install git+https://github.com/Project-MONAI/MONAI.git@07de215c
 If you need to activate the environment, use:
 conda activate TextBraTS
