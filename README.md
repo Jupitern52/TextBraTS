@@ -8,7 +8,7 @@ A volume-level text-image public dataset with novel text-guided 3D brain tumor s
 
 **TextBraTS** is an open-access dataset designed to advance research in text-guided 3D brain tumor segmentation. It includes paired multi-modal brain MRI scans and expertly annotated radiology reports, enabling the development and evaluation of multi-modal deep learning models that bridge vision and language in neuro-oncology. Our work has been accepted by MICCAI 2025. The paper is also available on arXiv: [arXiv link](https://arxiv.org/abs/你的arxiv编号).
 
-![TextBraTS Overview](assets/datasample.PNG)
+![TextBraTS datasample](assets/datasample.PNG)
 
 ## Features
 
@@ -37,7 +37,7 @@ If you need to activate the environment, use:
 Due to BraTS official guidelines, MRI images must be downloaded directly from the [BraTS 2020 challenge website](https://www.med.upenn.edu/cbica/brats2020/data.html) (training set).
  
 **Download our text, feature, and prompt files:**  
-[https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing](https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing)
+[Google drive](https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing)
 Our provided text reports, feature files, and prompt files are named to match the original BraTS folder IDs exactly. You can set the path and simply merge them with the downloaded MRI data by `merge.py`. 
 <pre>python merge.py</pre>
 
@@ -48,7 +48,7 @@ If you would like to change the dataset split, please modify the `Train.json` an
 We provide our pre-trained weights for direct inference and evaluation.  
 Download the weights from the following link:
 
-[https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing](https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing)
+[Google drive](https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing)
 
 After downloading, place the weights in your desired directory, then run the `test.py` with following command for inference:
 
@@ -62,7 +62,7 @@ If you would like to train the model from scratch, you can modify the training c
 
 - The `--use_ssl_pretrained` option utilizes the pre-trained weights from NVIDIA's Swin UNETR model.
 - Download the Swin UNETR pre-trained weights from:  
-  [https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing](https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing)
+  [Google drive](https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing)
 - Please place the downloaded weights in the appropriate directory as specified in your configuration or script.
 
 
