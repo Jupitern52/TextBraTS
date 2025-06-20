@@ -46,9 +46,7 @@ If you would like to change the dataset split, please modify the `Train.json` an
 ## Inference
 
 We provide our pre-trained weights for direct inference and evaluation.  
-Download the weights from the following link:
-
-[checkpoint](https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing).
+Download the weights from [checkpoint](https://drive.google.com/file/d/147283LL2fRDcTYR_vQA-95vbZysjjD1v/view?usp=sharing).
 
 After downloading, place the weights in your desired directory, then run the `test.py` with following command for inference:
 
@@ -61,8 +59,7 @@ If you would like to train the model from scratch, you can modify the training c
 <pre>python main.py --distributed --use_ssl_pretrained --save_checkpoint --logdir=TextBraTS</pre>
 
 - The `--use_ssl_pretrained` option utilizes the pre-trained weights from NVIDIA's Swin UNETR model.
-- Download the Swin UNETR pre-trained weights from:  
-  [Pre-trained weights](https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing).
+- Download the Swin UNETR pre-trained weights from [Pre-trained weights](https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing).
 - Please place the downloaded weights in the appropriate directory as specified in your configuration or script.
 
 
