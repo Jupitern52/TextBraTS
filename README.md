@@ -36,7 +36,7 @@ If you need to activate the environment, use:
 
 Due to BraTS official guidelines, MRI images must be downloaded directly from the [BraTS 2020 challenge website](https://www.med.upenn.edu/cbica/brats2020/data.html) (training set).
 
-Our provided text reports, feature files, and prompt files are named to match the original BraTS folder IDs exactly. You can simply merge them with the downloaded MRI data. If you would like to change the dataset split, please modify the `train.json` and `test.json` files accordingly.
+Our provided text reports, feature files, and prompt files are named to match the original BraTS folder IDs exactly. You can simply merge them with the downloaded MRI data. If you would like to change the dataset split, please modify the `Train.json` and `Test.json` files accordingly.
  
 
 **Download our text, feature, and prompt files:**  
