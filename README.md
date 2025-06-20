@@ -8,7 +8,7 @@ A text-image public dataset with novel text-guided 3D brain tumor segmentation.
 
 **TextBraTS** is an open-access dataset designed to advance research in text-guided 3D brain tumor segmentation. It includes paired multi-modal brain MRI scans and expertly annotated radiology reports, enabling the development and evaluation of multi-modal deep learning models that bridge vision and language in neuro-oncology.
 
-![TextBraTS Overview](fig/datasample.PNG)
+![TextBraTS Overview](assets/datasample.PNG)
 
 ## Features
 
@@ -16,13 +16,23 @@ A text-image public dataset with novel text-guided 3D brain tumor segmentation.
 - Structured radiology reports for each case
 - Text-image alignment method for research on multi-modal fusion
 
-![TextBraTS Overview](fig/overview.PNG)
+![TextBraTS Overview](assets/overview.PNG)
+
 ## Usage
 
 You can use this dataset for:
 - Developing and benchmarking text-guided segmentation models
 - Evaluating multi-modal fusion algorithms in medical imaging
 - Research in language-driven medical AI
+
+## Installing Dependencies
+Run the following commands to set up the environment:
+conda env create -f environment.yml
+pip install git+https://github.com/Project-MONAI/MONAI.git@07de215c
+If you need to activate the environment, use:
+conda activate TextBraTS
+
+  
 
 ## Citation
 
