@@ -52,7 +52,19 @@ After downloading, place the weights in your desired directory, then run the fol
 
 ```bash
 python test.py --pretrained_dir=/path/to/your/weights/ --exp_name=TextBraTS
-  
+
+## Training
+
+If you would like to train the model from scratch, please use the following command:
+
+```bash
+python main.py --distributed --use_ssl_pretrained --save_checkpoint --logdir=TextBraTS
+
+- The `--use_ssl_pretrained` option utilizes the pre-trained weights from NVIDIA's Swin UNETR model.
+- Download the Swin UNETR pre-trained weights from:  
+  [https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing](https://drive.google.com/file/d/1FJ0N_Xo3olzAV-oojEkAsbsUgiFsoPdl/view?usp=sharing)
+- Please place the downloaded weights in the appropriate directory as specified in your configuration or script.
+
 
 ## Citation
 
