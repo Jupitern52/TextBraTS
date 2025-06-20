@@ -30,7 +30,7 @@ Run the following commands to set up the environment:
 <pre>conda env create -f environment.yml 
 pip install git+https://github.com/Project-MONAI/MONAI.git@07de215c </pre>
 If you need to activate the environment, use:
-<pre> conda activate TextBraTS  </pre>
+<pre>conda activate TextBraTS </pre>
 
   
 
