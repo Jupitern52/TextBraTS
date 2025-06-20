@@ -8,11 +8,14 @@ A text-image public dataset with novel text-guided 3D brain tumor segmentation.
 
 **TextBraTS** is an open-access dataset designed to advance research in text-guided 3D brain tumor segmentation. It includes paired multi-modal brain MRI scans and expertly annotated radiology reports, enabling the development and evaluation of multi-modal deep learning models that bridge vision and language in neuro-oncology.
 
+![TextBraTS Overview](fig/overview.pdf)
+
 ## Features
 
 - Multi-modal 3D brain MRI scans with expert-annotated segmentation (T1, T1ce, T2, FLAIR) from BraTS20 challenge training set
 - Structured radiology reports for each case
 - Text-image alignment method for research on multi-modal fusion
+
 
 ## Usage
 
