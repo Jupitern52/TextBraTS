@@ -1,0 +1,23 @@
+name: TextBraTS
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.5.0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - cudnn=8.9.7
+  - numpy=1.26.4
+  - sympy=1.13.1
+  - fsspec=2025.2
+  - tensorboardX=2.6.2.2
+  - pip
+  - pip:
+      - monai
+      - nibabel
+      - einops
+      - scipy
