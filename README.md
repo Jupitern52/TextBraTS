@@ -37,7 +37,7 @@ If you need to activate the environment, use:
 Due to BraTS official guidelines, MRI images must be downloaded directly from the [BraTS 2020 challenge website](https://www.med.upenn.edu/cbica/brats2020/data.html) (training set).
  
 **Download our text, feature, and prompt files:**  
-You can download our dataset from [TextBraTSData](https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing).
+You can download our dataset from [Google Drive](https://drive.google.com/file/d/1i1R6_bVY4VbNtxEIQVsiXUSWuVAtgJhg/view?usp=sharing) or [Hugging Face](https://huggingface.co/datasets/Jupitern52/TextBraTS).
 Our provided text reports, feature files, and prompt files are named to match the original BraTS folder IDs exactly. You can set the path and simply merge them with the downloaded MRI data by `merge.py`. 
 <pre>python merge.py</pre>
 
