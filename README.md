@@ -6,9 +6,10 @@ A volume-level text-image public dataset with novel text-guided 3D brain tumor s
 
 ## Introduction
 
-**TextBraTS** is an open-access dataset designed to advance research in text-guided 3D brain tumor segmentation. It includes paired multi-modal brain MRI scans and expertly annotated radiology reports, enabling the development and evaluation of multi-modal deep learning models that bridge vision and language in neuro-oncology. Our work has been accepted by MICCAI 2025. The paper is also available on [arxiv:2506.16784](https://arxiv.org/abs/2506.16784).
+**TextBraTS** is an open-access dataset designed to advance research in text-guided 3D brain tumor segmentation. It includes paired multi-modal brain MRI scans and expertly annotated radiology reports, enabling the development and evaluation of multi-modal deep learning models that bridge vision and language in neuro-oncology. Our work has been accepted by MICCAI 2025.  The paper is also available on [arxiv:2506.16784](https://arxiv.org/abs/2506.16784).
 
 ![TextBraTS datasample](assets/datasample.PNG)
+<img width="1009" height="639" alt="image" src="https://github.com/user-attachments/assets/9184f02b-de69-441d-99de-1030caa3d179" />
 
 ## Features
 
